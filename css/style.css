@@ -328,6 +328,50 @@ nav {
   margin: 15%;
 }
 
+.subscribe {
+  border-radius: 7px 0 0 7px;
+	border-top: 1px solid rgba(255,255,255,0.53);
+  border-bottom: 1px solid rgba(255,255,255,0.53);
+  border-left: 1px solid rgba(255,255,255,0.53);
+  border-right: none;
+  background: none;
+  color: #FFF;
+  font-family: 'latolight', sans-serif;
+  text-transform: uppercase;
+  font-size: 16px;
+  min-width: 40%;
+  height: 44px;
+  padding-left: 10px;
+  display: inline-block;
+}
+
+.subscribe-button {
+  border-radius: 0 7px 7px 0;
+	border: none;
+  background: rgba(255,255,255,0.53);
+  height: 44px;
+  color: white;
+  padding: 5px 20px;
+  margin-left: -3px;
+  font-size: 14px;
+  font-family: 'latolight', sans-serif;
+  text-transform: uppercase;
+}
+
+.success {
+  color: white;
+  font-family: 'Coffee';
+}
+
+/* .button:hover {
+  color:#FFF;
+  border:1px solid #FFF;
+   -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;} */
+
 video#bgVideo {
   position: absolute; // Play the video in full screen mode
   top: 100px;
@@ -526,6 +570,15 @@ video#bgVideo {
 	position: relative;
 	background: #FFF;
 	border-top:1px solid #eee; }
+
+.socials {
+  margin-top: 10px;
+}
+
+.socials .icon {
+  font-size: 35px;
+  padding: 5px 10px;
+}
 
 
 /* 06. JOIN US TEXT SECTION ================================================== */

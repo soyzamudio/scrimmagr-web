@@ -25,7 +25,7 @@
   <link rel="stylesheet" href="css/component.css"> <!-- Flexslider - Thumbs Icon /-->
   <link rel="stylesheet" href="css/coffee.css"> <!-- Coffee font -->
   <link rel="stylesheet" href="css/ionicons.css"> <!-- Ionic Icons -->
-
+  <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
 
   <script src="js/modernizr-2.6.2.min.js"></script>  <!-- Modernizr /-->
 
@@ -71,6 +71,12 @@
 
         <h2 class="fade2">Find pick-up games nearby you.
         <br>Become a better player.</h2>
+
+        <h1 class='message'></h1>
+        <form id='email-form' style='padding: 20px;'>
+          <input id='email' class="subscribe" type="text" name='email' placeholder="Enter your email for updates" />
+          <input id='submit' class='subscribe-button' type='submit'  value='Subscribe'>
+        </form>
 
         <!-- Button-->
 
@@ -352,6 +358,11 @@
 										<div class="testtextblock">							  	 <!-- set client 1 testimonial here !-->
 											<a href='http://josezamudio.me'>www.josezamudio.me</a>
 										</div>
+                    <div class="socials">
+                      <a href="http://twitter.com/soyzamudio" target='_blank'><i class="icon ion-social-twitter"></i></a>
+                      <a href="http://github.com/soyzamudio" target='_blank'><i class="icon ion-social-github"></i></a>
+                      <a href="http://linkedin.com/josezamudio" target='_blank'><i class="icon ion-social-linkedin"></i></a>
+                    </div>
 									</li>
 
 										<!--to add more testimonial, copy line the li element -->
@@ -383,9 +394,6 @@
       <img class='techs' src='img/ionic.png' alt='Ionic Framework'>
       <img src="img/ngcordova.png" alt="ngCordova" class="techs">
       <img class='techs' src='img/polymer.png' alt='Polymer'>
-      <img class='techs' src='img/firebase.png' alt='Firebase'/>
-
-
 		</div>
 
 	</div>
@@ -424,8 +432,9 @@
 
 
   <!-- Grab Google CDN's jQuery, fall back to local if offline -->
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
   <script>window.jQuery || document.write('<script src="js/jquery-1.9.1.min.js"><\/script>')</script>
+  <script src="js/form.js" type="text/javascript"></script> <!-- Main Javascript File -->
   <script src="js/main.js" type="text/javascript"></script> <!-- Main Javascript File -->
   <script src="js/plugins.js" type="text/javascript"></script> <!--Plugins File -->
   <script src="js/cbpScroller.js" type="text/javascript"></script> <!-- Scroll from left & right -->
