@@ -358,7 +358,7 @@ nav {
   text-transform: uppercase;
 }
 
-.success {
+#message {
   color: white;
   font-family: 'Coffee';
 }
